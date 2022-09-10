@@ -69,6 +69,22 @@ body {
 }
 
 /*
+ * サイドバーアコーディオン
+ */
+.nav-item.site-manage .nav-link{
+  display:block;
+  width:200px;
+  height:50px;
+  cursor:pointer;
+}
+.nav-item.site-manage .pull-down-list{
+  width:200px;
+  height:50px;
+  text-align:center;
+  display:none;
+}
+
+/*
  * ナビゲーションバー
  */
 
@@ -101,4 +117,3 @@ body {
   border-color: transparent;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
 }
-
