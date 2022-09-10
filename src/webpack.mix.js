@@ -11,15 +11,8 @@ const mix = require("laravel-mix");
  |
  */
 
-<<<<<<< Updated upstream:src/webpack.mix.js
 mix.js("resources/js/app.js", "public/js")
     .postCss("resources/css/layout.css", "public/css", [
         //
     ])
     .version();
-=======
-mix.js("resources/js/app.js", "public/js").postCss(
-    "resources/css/layout.css",
-    "public/css"
-);
->>>>>>> Stashed changes:src/webpack.mix
