@@ -37,9 +37,8 @@ body {
   overflow-y: auto; /* ビューポートがコンテンツより短い場合、スクロール可能なコンテンツ */
 }
 
-@supports ((position: -webkit-sticky) or (position: sticky)) {
+@supports (position: sticky) {
   .sidebar-sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 }
@@ -66,6 +65,22 @@ body {
 .sidebar-heading {
   font-size: .75rem;
   text-transform: uppercase;
+}
+
+/*
+ * サイドバーアコーディオン
+ */
+.nav-item.site-manage .nav-link{
+  display:block;
+  width:200px;
+  height:50px;
+  cursor:pointer;
+}
+.nav-item.site-manage .pull-down-list{
+  width:200px;
+  height:50px;
+  text-align:center;
+  display:none;
 }
 
 /*
